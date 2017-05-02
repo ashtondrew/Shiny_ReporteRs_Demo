@@ -2,6 +2,7 @@ library(ggplot2)
 library(magrittr)
 library(dplyr)
 library(ReporteRs)
+library(shiny)
 
 invites <- tibble(Leaders = c(rep("LeaderX", 8), rep("LeaderY", 6)),
                       Subjects = paste(rep("Subject", 14), 1:14))
